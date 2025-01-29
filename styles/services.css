@@ -1,0 +1,97 @@
+.banner-service {
+  height: 25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+
+  background-image: url('../src/images/services-image-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  filter: Brightness(80%);
+
+  div {
+    z-index: 2;
+  }
+}
+
+.title-banner {
+  font-size: 2.5rem;
+}
+
+.card-services {
+  width: 100%;
+  height: 8rem;
+
+  border: 2px solid #71090f;
+  cursor: pointer;
+  transition: ease-in 0.6ms;
+
+  img {
+    width: 4rem;
+  }
+}
+
+@media(max-width: 600px){
+  .banner-service {
+    margin-top: 0;
+  }
+  .card-services {
+    img {
+      width: 2.8rem;
+    }
+  }
+}
+
+.card-services:hover {
+  background-color: #71090f;
+  color: #fff !important;
+
+  .image-magueira-one, 
+  .image-colas-e-adesivos-one, 
+  .image-cordas-one, 
+  .image-corrosivos-one,
+  .image-ferramentas-one,
+  .image-materrial-eletrico-one,
+  .image-material-quimico-one,
+  .image-material-de-solda-one,
+  .image-tubos-e-conecoes-one,
+  .image-papelaria-one,
+  .image-material-de-carga-one,
+  .image-materrial-metrico-one,
+  .image-utilidades-one
+  {
+    display: none !important;
+  } 
+
+  .image-mangueira-two, 
+  .image-colas-e-adesivos-two, 
+  .image-cordas-two, 
+  .image-corrosivos-two,
+  .image-ferramentas-two,
+  .image-materrial-eletrico-two,
+  .image-material-quimico-two,
+  .image-material-de-solda-two,
+  .image-tubos-e-conecoes-two,
+  .image-papelaria-two,
+  .image-material-de-carga-two,
+  .image-materrial-metrico-two,
+  .image-utilidades-two
+  {
+    display: block !important;
+  }
+}
+
+/* .card-services:hover, .
+
+
+/* .card-services:hover, 
+} */
+
+.line {
+  height: 20rem;
+  border: 1px solid #71090f;
+}

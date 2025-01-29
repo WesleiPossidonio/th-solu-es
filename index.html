@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap ICONS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <!-- Swiper Slider CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Link style css -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Th Soluções</title>
+</head>
+
+<body>
+  <header class="w-100 fixed-top">
+    <!-- Links NavBar-->
+    <div class="container-fluid link-header-descktop d-none d-md-block">
+      <div class="w-100 d-none d-md-block">
+        <div class="p-2 d-flex align-items-center justify-content-around">
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-telephone-fill fs-4"></i>
+            <div class="d-flex align-items-center gap-2">
+              <a href="tel:+552227734646" class="text-decoration-none text-white">22 2773.4646</a> |
+              <a href="tel:+55223399.4646" class="text-decoration-none text-white">22 3399.4646</a>
+            </div>
+          </div>
+
+          <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
+            class=" text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
+              title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
+            Macaé - RJ
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Links NavBar End  -->
+
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class="w-100 d-flex align-items-center justify-content-between">
+          <!-- Logo -->
+          <a class="navbar-brand logo" href="#">
+            <img src="./src/images/logo-thsoluções.png" alt="">
+          </a>
+          <!-- Btn togle -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Sidebar -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <!-- Sidebar Header -->
+            <div class="offcanvas-header">
+              <a class="navbar-brand logo-mobile" href="#">
+                <img src="../assets/imgs/logo-rpfilho.png" alt="">
+              </a>
+              <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <!-- Sidebar Body -->
+            <div
+              class="offcanvas-body d-flex flex-column align-items-start justify-content-around flex-lg-row justify-content-lg-center">
+              <ul
+                class="navbar-nav align-items-start justify-content-start justify-content-lg-end fs-5 flex-grow-1 pe-3 gap-2 gap-lg-0">
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Sobre Nós</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Nossas Soluções</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Parceiros</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Contatos</a>
+                </li>
+              </ul>
+
+              <div class="d-lg-none d-flex align-items-center gap-3 mb-2 mb-lg-0">
+                <i class="bi bi-telephone-fill fs-4"></i>
+                <div class="d-flex align-items-center gap-2">
+                  <a href="tel:+552227734646" class="text-decoration-none text-dark">22 2773.4646</a> |
+                  <a href="tel:+55223399.4646" class="text-decoration-none text-dark">22 3399.4646</a>
+                </div>
+              </div>
+
+              <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
+                class="d-lg-none d-block text-decoration-none text-dark d-flex align-items-center gap-2" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
+                  title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
+                Macaé - RJ
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <!-- NavBar End-->
+  </header>
+  <!-- header end -->
+
+  <!-- Start Hero Section -->
+  <section class="swiper swiperHero">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiperHero-slide position-relative">
+        <img src="./src/images/ImageHeroOne.jpg" class="d-block w-100 h-100" alt="Slide 1">
+        <div class="box-text-swiper position-absolute d-flex flex-column align-items-start justify-content-start">
+          <h1 class="title-banner fw-bold text-white animated-title">
+            TH Soluções: Seu Parceiro de Confiança
+          </h1>
+          <p class="fs-6 fs-md-3 fw-semibold text-white animated-subtitle">
+            Oferecemos soluções completas para atender às necessidades da sua empresa.
+            Experiência, eficiência e compromisso com resultados.
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide swiperHero-slide position-relative">
+        <img src="./src//images/ImageHeroTwo.jpg" class="d-block w-100 h-100" alt="Slide 2">
+        <div class="box-text-swiper position-absolute d-flex flex-column align-items-start justify-content-center">
+          <h1 class="title-banner fw-bold text-white animated-title">
+            Soluções Inteligentes para o Sucesso da Sua Empresa
+          </h1>
+          <p class="fs-6 fs-md-3 fw-semibold text-white animated-subtitle">
+            Na TH Soluções, trabalhamos para garantir resultados excepcionais com serviços
+            sob medida e excelência em cada projeto. Conte conosco!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- section about -->
+  <section class="section-about d-flex align-items-center justify-content-center overflow-hidden">
+    <div class=" container m-0">
+      <div class="row row-gap-5 px-3">
+        <div class="col-12 col-lg-6 position-relative order-2 order-lg-1" data-aos="fade-right"
+          data-aos-duration="1000">
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <div class="span-border"></div>
+            <img class="img-about" src="./src/images/ImgAboutOne.jpg" alt="">
+          </div>
+          <img class="img-capacete position-absolute" src="./src/images/capacete.png" alt="">
+        </div>
+
+        <div class="col-12 col-lg-6 md-lg-0" data-aos="fade-left" data-aos-duration="1000">
+          <div class="d-flex flex-column justify-content-center align-items-start">
+            <p class="fs-5 m-0">- Sobre Nós</p>
+            <h1>Saiba Mais sobre nós!</h1>
+
+            <p class="fs-md-5 mt-2">
+              A TH Soluções nasceu com o propósito de entregar qualidade, inovação
+              e confiança em cada projeto realizado. Com uma equipe experiente e
+              comprometida, oferecemos soluções personalizadas que atendem às
+              necessidades específicas de cada cliente.
+            </p>
+
+            <p class="fs-md-5">
+              Nosso foco vai além da prestação de serviços; buscamos construir parcerias sólidas e duradouras,
+              sempre priorizando resultados eficientes e satisfatórios. Seja para impulsionar seu negócio ou superar
+              desafios,
+              estamos prontos para transformar suas ideias em conquistas. Conheça a TH Soluções e descubra como podemos
+              ser o
+              diferencial que você procura!
+            </p>
+
+            <a class="btn bg-button" href="#" target="_blank" rel="noopener noreferrer">Saiba Mais!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section about end -->
+
+  <!-- start section values -->
+
+  <section class="section-values d-flex justify-content-center overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <p class="fs-5 m-0">Nossos Valores</p>
+            <h1 class="text-center">A Base Que Sustenta Nosso Compromisso e Excelência</h1>
+          </div>
+        </div>
+        <div class="row row-gap-4 mt-5">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+            <div
+              class="w-100 card-values mission text-center d-flex flex-column align-items-center justify-content-center rounded-3">
+              <img src="./src/images/svg/missao.svg" alt="">
+              <h2 class="fs-3 mt-3 fw-bold">Missão</h2>
+              <p class="text-white fs-5 d-none">
+                Oferecer soluções inovadoras e personalizadas,
+                garantindo qualidade, confiança e satisfação em cada projeto realizado
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="w-100 card-values  vision text-center d-flex flex-column align-items-center justify-content-center rounded-3">
+              <img class="m-0" src="./src/images/svg/visao.svg" alt="">
+              <h2 class="fs-3 mt-3 fw-bold">Visão</h2>
+              <p class="text-white fs-5 d-none">
+                Ser referência no mercado como uma empresa que transforma
+                desafios em oportunidades, construindo parcerias duradouras
+                e resultados excepcionais
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+            <div
+              class="w-100 card-values text-center values d-flex flex-column align-items-center justify-content-center rounded-3">
+              <img src="./src/images/svg/valores.svg" alt="">
+              <h2 class="fs-3 mt-3 fw-bold">Valores</h2>
+              <p class="text-white fs-5 d-none">
+                Compromisso com a excelência, respeito, transparência e
+                dedicação para superar as expectativas dos nossos
+                clientes e colaboradores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start sesction service -->
+  <section class="section-services overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-column align-items-start justify-content-center">
+          <h5>- Nossos Serviços</h5>
+          <h1 class="fs-1">
+            A Solução que Transforma Resultados
+          </h1>
+          <p>
+            Unimos experiência e inovação para entregar serviços que superam expectativas e impulsionam o seu sucesso
+          </p>
+        </div>
+
+      </div>
+      <div class="row">
+        <!-- Suprementos Start -->
+        <div class="col-md-2 d-none d-md-block"></div>
+        <div class="col-12 col-md-10">
+          <div class="swiper swiperCards">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/suprementos.jpg" alt="">
+                <div class="card-content d-flex flex-column align-items-start justify-content-center">
+                  <h2>Suprimentos</h2>
+                  <a class="fs-5 text-white" href="./suplementos.html">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/Esmerilhadeira.jpg" alt="">
+                <div class="card-content d-flex align-items-start">
+                  <h2>Manutenção industrial</h2>
+                  <a class="fs-5 text-white" data-bs-toggle="modal" data-bs-target="#manutenção-industrial">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/predial.avif" alt="">
+                <div class="card-content">
+                  <h2>Manutenção Predial</h2>
+                  <a class="fs-5 text-white" data-bs-toggle="modal" data-bs-target="#manutenção-predial">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/facility.jpg" alt="">
+                <div class="card-content">
+                  <h2>Facility</h2>
+                  <a class="fs-5 text-white" data-bs-toggle="modal" data-bs-target="#facility">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/transporte-carga.jpg" alt="">
+                <div class="card-content">
+                  <h2>Transporte de carga</h2>
+                  <a class="fs-5 text-white" data-bs-toggle="modal" data-bs-target="#transporte-de-carga">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide card-swiper">
+                <img src="./src/images/transporte-execultivo.jpg" alt="">
+                <div class="card-content">
+                  <h2>Transporte Executivo</h2>
+                  <a class="fs-5 text-white" data-bs-toggle="modal" data-bs-target="#transporte-executivo"">
+                    Saiba Mais!
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end sesction service -->
+
+  <!-- Start section Contact -->
+  <section class=" contacts w-100 d-flex align-items-center justify-content-center overflow-hidden">
+                    <div class="container">
+                      <div class="row row-gap-5 row-gap-lg-0">
+                        <div class="col-lg-6 order-2 order-lg-1">
+                          <form action="" class="w-100">
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+                              <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                placeholder="Nome">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+                              <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Telefone:</label>
+                              <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                placeholder="(22) 22222-2222">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Duvidas:</label>
+                              <textarea class="form-control shadow-none" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Digite sua dúvida..."></textarea>
+                            </div>
+                            <button class="btn btn-lg bg-button">Enviar</button>
+                          </form>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div class="d-flex flex-column align-items-start justofy-content-center px-lg-5">
+                            <p class="m-0 fs-5">- Contatos</p>
+                            <h2>Vamos Conversar: Estamos Prontos Para Ajudar Você!</h2>
+                            <p class="fs-6 fs-md-5">
+                              Seu sucesso é a nossa prioridade. Fale conosco e juntos
+                              encontraremos a melhor solução para suas necessidades!
+                            </p>
+
+                            <div class="w-100 content-contact">
+                              <div class="d-flex align-items-center justify-content-center gap-3">
+                                <i class="bi bi-telephone-plus fs-1 color-text"></i>
+                                <div class="card-contact">
+                                  <p class="fs-4 fw-bold m-0 text-dark">Telefone</p>
+                                  <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="tel:+">(22)
+                                    99999-9999</a>
+                                </div>
+                              </div>
+
+                              <div class=" d-flex align-items-center justify-content-center gap-3">
+                                <i class="bi bi-envelope-arrow-down fs-1 color-text"></i>
+                                <div class="card-contact">
+                                  <p class="fs-4 fw-bold m-0 text-dark">E-mail</p>
+                                  <a class="text-decoration-none m-0 color-text fs-6 fs-md-5"
+                                    href="mailto:">Email@gmail.com</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class=" d-flex align-items-center justify-content-center gap-3 mt-3">
+                              <i class="bi bi-geo-alt fs-1 color-text"></i>
+                              <div class="card-contact">
+                                <p class="fs-4 fw-bold m-0 text-dark">Localização</p>
+                                <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="http://"
+                                  target="_blank" rel="noopener noreferrer">Macaé RJ</a>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+  </section>
+  <!-- End section Contact -->
+
+  <footer class="footer h-auto d-flex align-items-center justify-content-center p-4">
+    <div class="container">
+      <div class="row row-gap-5">
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center gap-2">
+            <img class="logo-footer" src="./src/images/logo-thsoluções2.png" alt="">
+            <p class="text-white d-flex"> <span>&#169;</span> Todos os direitos reservados</p>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center gap-2">
+            <h2 class="fs-3 text-white fw-semibold">Navegação</h2>
+            <div class="w-100 d-flex flex-column align-items-start gap-1">
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="#">Home</a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="#">Sobre Nós</a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="#">Nossas
+                Soluções</a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="#">Nossos
+                Parceiros</a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="#">Contatos</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center">
+            <h2 class="fs-4 text-white fw-semibold">Contatos</h2>
+
+            <div class="w-100  d-flex flex-column align-items-start gap-3">
+              <div class="d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-telephone-plus fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">Telefone</p>
+                  <a class="text-decoration-none m-0 text-white fs-6" href="tel:+">(22)
+                    99999-9999</a>
+                </div>
+              </div>
+
+              <div class=" d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-envelope-arrow-down fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">E-mail</p>
+                  <a class="text-decoration-none m-0 text-white fs-6" href="mailto:">Email@gmail.com</a>
+                </div>
+              </div>
+
+              <div class=" d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-geo-alt fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">Localização</p>
+                  <a class="text-decoration-none m-0 text-white fs-5" href="http://" target="_blank"
+                    rel="noopener noreferrer">Macaé RJ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- start Modal manutenção-predial -->
+  <div class="modal modal-xl fade" id="manutenção-predial" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Manutenção Predial</h1>
+              </div>
+            </div>
+
+            <div class="col">
+              <ul>
+                <li class="fs-5">Manutenção</li>
+                <li class="fs-5">Serviços de construção civil</li>
+                <li class="fs-5">Pintura</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal manutencao-predial End -->
+
+  <!-- start Modal manutenção-industrial -->
+  <div class="modal modal-xl fade" id="manutenção-industrial" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Manutenção Industrial</h1>
+              </div>
+            </div>
+
+            <div class="col">
+              <ul>
+                <li class="fs-5">Pintura</li>
+                <li class="fs-5">Acesso por Cordas</li>
+                <li class="fs-5">Manutenção de Containers</li>
+                <li class="fs-5">Dutos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal manutencao-industrial End -->
+
+  <!-- start Modal facility -->
+  <div class="modal modal-xl fade" id="facility" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Facility</h1>
+              </div>
+            </div>
+
+            <div class="col">
+              <ul>
+                <li class="fs-5">Serviços de Limpeza</li>
+                <li class="fs-5">Portaria</li>
+                <li class="fs-5">Jardinagem</li>
+                <li class="fs-5">Administração Condominial</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal facility End -->
+
+  <!-- start Modal transporte-de-carga -->
+  <div class="modal modal-xl fade" id="transporte-de-carga" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Transporte de Carga</h1>
+              </div>
+            </div>
+
+            <div class="col">
+              <ul>
+                <li class="fs-5">Fiorino</li>
+                <li class="fs-5">Caminhao Pequeno</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal transporte-de-carga End -->
+
+  <!-- start Modal transporte-executivo -->
+  <div class="modal modal-xl fade" id="transporte-executivo" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Transporte Executivo</h1>
+              </div>
+            </div>
+
+            <div class="col">
+              <ul>
+                <li class="fs-5">Sem Informações</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal transporte-executivo End -->
+
+
+
+  <script src="./js/index.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- NavBar End-->

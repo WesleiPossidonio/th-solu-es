@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- Link Bootstrap End -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/services.css">
+
+  <title>Th Soluções</title>
+</head>
+
+<body>
+  <header class="w-100 fixed-top">
+    <!-- Links NavBar-->
+    <div class="container-fluid link-header-descktop d-none d-md-block">
+      <div class="w-100 d-none d-md-block">
+        <div class="p-2 d-flex align-items-center justify-content-around">
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-telephone-fill fs-4"></i>
+            <div class="d-flex align-items-center gap-2">
+              <a href="tel:+552227734646" class="text-decoration-none text-white">22 2773.4646</a> |
+              <a href="tel:+55223399.4646" class="text-decoration-none text-white">22 3399.4646</a>
+            </div>
+          </div>
+
+          <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
+            class=" text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
+              title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
+            Macaé - RJ
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Links NavBar End  -->
+
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class=" w-100 d-flex align-items-center justify-content-between">
+          <!-- Logo -->
+          <a class="navbar-brand logo" href="#">
+            <img src="./src/images/logo-thsoluções.png" alt="">
+          </a>
+          <!-- Btn togle -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Sidebar -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <!-- Sidebar Header -->
+            <div class="offcanvas-header">
+              <a class="navbar-brand logo-mobile" href="#">
+                <img src="../assets/imgs/logo-rpfilho.png" alt="">
+              </a>
+              <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <!-- Sidebar Body -->
+            <div
+              class="offcanvas-body d-flex flex-column align-items-start justify-content-around flex-lg-row justify-content-lg-center">
+              <ul
+                class="navbar-nav align-items-start justify-content-start justify-content-lg-end fs-5 flex-grow-1 pe-3 gap-2 gap-lg-0">
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Sobre Nós</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Nossas Soluções</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Parceiros</a>
+                </li>
+                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
+                  <a class="nav-link fs-5" href="#">Contatos</a>
+                </li>
+              </ul>
+
+              <div class="d-lg-none d-flex align-items-center gap-3 mb-2 mb-lg-0">
+                <i class="bi bi-telephone-fill fs-4"></i>
+                <div class="d-flex align-items-center gap-2">
+                  <a href="tel:+552227734646" class="text-decoration-none text-dark">22 2773.4646</a> |
+                  <a href="tel:+55223399.4646" class="text-decoration-none text-dark">22 3399.4646</a>
+                </div>
+              </div>
+
+              <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
+                class="d-lg-none d-block text-decoration-none text-dark d-flex align-items-center gap-2" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
+                  title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
+                Macaé - RJ
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <!-- NavBar End-->
+  </header>
+  <!-- header end -->
+
+  <!-- Banner Start  -->
+  <section class="banner-service w-100 px-3 px-md-4">
+    <div class="text-center">
+      <p class="text-white fs-5 fw-bold m-0">- Serviços | Home</p>
+      <h2 class="text-white title-banner fs-md-1 fw-bold">Veja as Nossas Soluções</h2>
+    </div>
+  </section>
+  <!-- Banner End  -->
+
+  <div class="container p-4 p-md-5">
+    <div class="row">
+      <div class="col-12 mb-5">
+        <div class="d-flex flex-column text-center align-items-center justify-content-center">
+          <h1>Suplementos</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit reiciendis beatae aperiam odio voluptate
+            nobis dolorum numquam aspernatur, veritatis pariatur velit dignissimos nisi sapiente ipsa expedita esse
+            inventore est dolor.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-gap-2">
+      <div class="col-md-5">
+        <div class="row row-gap-3">
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#mangueiras">
+              <img class="image-magueira-one" src="./src/images/svg/mangueira.svg" alt="">
+              <img class="image-mangueira-two d-none" src="./src/images/svg/mangueira-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Mangueira</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#colas-adesivos">
+              <img class="image-colas-e-adesivos-one" src="./src/images/svg/colas-e-adesivos.svg" alt="">
+              <img class="image-colas-e-adesivos-two d-none" src="./src/images/svg/colas-e-adesivos-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Colas e Adesivos</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#cordas">
+              <img class=" image-cordas-one" src="./src/images/svg/cordas.svg" alt="">
+              <img class="image-cordas-two d-none" src="./src/images/svg/cordas-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Cordas</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#abrasivos">
+              <img class="image-corrosivos-one" src="./src/images/svg/corrosivos.svg" alt="">
+              <img class="image-corrosivos-two d-none" src="./src/images/svg/corrosivos-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Abrasivos</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#ferramenta">
+              <img class="image-ferramentas-one" src="./src/images/svg/ferramentas.svg" alt="">
+              <img class="image-ferramentas-two d-none" src="./src/images/svg/ferramentas-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Ferramentas</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-eletrico">
+              <img class="image-materrial-eletrico-one" src="./src/images/svg/material-eletrico.svg" alt="">
+              <img class="image-materrial-eletrico-two d-none" src="./src/images/svg/material-eletrico-hover.svg"
+                alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Material Elétrico</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-pintura">
+              <img class="image-ferramentas-one" src="./src/images/svg/material-pintura.svg" alt="">
+              <img class="image-ferramentas-two d-none" src="./src/images/svg/material-pintura-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Material de Pintura</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 d-flex align-items-center justify-content-center">
+        <div class="line d-none d-lg-block"></div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="row row-gap-3">
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-quimico">
+              <img class="image-material-quimico-one" src="./src/images/svg/material-quimico.svg" alt="">
+              <img class="image-material-quimico-two d-none" src="./src/images/svg/material-quimico-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Material Quimico</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-solda">
+              <img class="image-material-de-solda-one" src="./src/images/svg/material-solda.svg" alt="">
+              <img class="image-material-de-solda-two d-none" src="./src/images/svg/material-solda-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Material de Solda</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#tubos-e-conexoes">
+              <img class="image-tubos-e-conecoes-one" src="./src/images/svg/tubos-e-conexões.svg" alt="">
+              <img class="image-tubos-e-conecoes-two d-none" src="./src/images/svg/tubos-e-conexões-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Tubos e Conexões</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#papelaria">
+              <img class="image-papelaria-one" src="./src/images/svg/papelaria.svg" alt="">
+              <img class="image-papelaria-two d-none" src="./src/images/svg/papelaria-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Papelaria</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-de-carga">
+              <img class="image-material-de-carga-one" src="./src/images/svg/material-carga.svg" alt="">
+              <img class="image-material-de-carga-two d-none" src="./src/images/svg/material-carga-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Meterial de Carga</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#material-metrico">
+              <img class="image-materrial-metrico-one" src="./src/images/svg/material-metrico.svg" alt="">
+              <img class="image-materrial-metrico-two d-none" src="./src/images/svg/material-metrico-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Material Métrico</h3>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card-services p-3 d-flex flex-column align-items-center justify-content-center gap-2 rounded-2"
+              data-bs-toggle="modal" data-bs-target="#utilidades">
+              <img class="image-utilidades-one" src="./src/images/svg/utilidades.svg" alt="">
+              <img class="image-utilidades-two d-none" src="./src/images/svg/utilidades-hover.svg" alt="">
+              <h3 class="fs-6 text-center fs-md-5 fw-semibold">Utilidades</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Mangueiras -->
+  <div class="modal modal-xl fade" id="mangueiras" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Linha Cristal</li>
+                <li class="fs-5">Linha Rubber</li>
+                <li class="fs-5">Mangueira de Descarga e Condução</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Linha Espiralada</li>
+                <li class="fs-5">Linha trançada</li>
+                <li class="fs-5">Mangueira de Sucção e Descarga</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Mangueiras  End -->
+
+  <!-- Start Modal colas e adsivos-->
+  <div class="modal modal-xl fade" id="colas-adesivos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Colas de Borracha</li>
+                <li class="fs-5">Corda de Sisal</li>
+                <li class="fs-5">Ativadores e Primers</li>
+                <li class="fs-5">Produtos Para Adesão</li>
+                <li class="fs-5">Cordas de Polipropileno</li>
+                <li class="fs-5">Endurecedores</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Produtos para Fixação</li>
+                <li class="fs-5">Produtos para vedação/li>
+                <li class="fs-5">Resinas Epóxi</li>
+                <li class="fs-5">Produtos para Travamento</li>
+                <li class="fs-5">Silicone</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal colas e adsivos End -->
+
+  <!-- start Modal Cordas -->
+  <div class="modal modal-xl fade" id="cordas" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Anticorrosiva</li>
+                <li class="fs-5">Cordas de Poliamida</li>
+                <li class="fs-5">Cordas de Nylon</li>
+                <li class="fs-5">Antiderrapante</li>
+                <li class="fs-5">Cordas de Poliéster Pré-Estriado</li>
+                <li class="fs-5">Cordas de Segurança</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Dupla-faca</li>
+                <li class="fs-5">Engrachada Denso</li>
+                <li class="fs-5">Filamentosa</li>
+                <li class="fs-5">Silver tape/li>
+                <li class="fs-5">Isolante</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Cordas End -->
+
+  <!-- start Modal Abrasivos -->
+  <div class="modal modal-xl fade" id="abrasivos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Discos de desbaste</li>
+                <li class="fs-5">Discos de lixa</li>
+                <li class="fs-5">Discos de corte</li>
+                <li class="fs-5">Disco diamantado</li>
+                <li class="fs-5">Escovas rotativas</li>
+                <li class="fs-5">Fresas e brocas</li>
+                <li class="fs-5">Limas mecânicas e rotativas</li>
+                <li class="fs-5">Lixas</li>
+                <li class="fs-5">Pontas montadas</li>
+                <li class="fs-5">Produtos para travamentos</li>
+                <li class="fs-5">Rebolos</li>
+                <li class="fs-5">Escovas rotativas</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Pastilhas de usinagem</li>
+                <li class="fs-5">Produtos para adesão</li>
+                <li class="fs-5">Produtos para fixação</li>
+                <li class="fs-5">Produtos para travamento</li>
+                <li class="fs-5">Produtos para vedação</li>
+                <li class="fs-5">Colas de borracha</li>
+                <li class="fs-5">Endurecedores</li>
+                <li class="fs-5">Resinas epóxi</li>
+                <li class="fs-5">Ativadores e primers</li>
+                <li class="fs-5">Silicone</li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Abrasivos End -->
+
+  <!-- start Modal Ferramentas -->
+  <div class="modal modal-xl fade" id="ferramenta" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Alicates</li>
+                <li class="fs-5">Almotolias</li>
+                <li class="fs-5">Balde de Graxa e Óleo</li>
+                <li class="fs-5">Bits e Bedames</li>
+                <li class="fs-5">Brocas Cônicas e Paralelas</li>
+                <li class="fs-5">Buchas de Redução para Brocas</li>
+                <li class="fs-5">Cadeados</li>
+                <li class="fs-5">Caixas para Ferramentas</li>
+                <li class="fs-5">Canivetes para Eletricistas</li>
+                <li class="fs-5">Carros Troley para Talhas</li>
+                <li class="fs-5">Chave Inglesa</li>
+                <li class="fs-5">Chaves Allen</li>
+                <li class="fs-5">Chaves de Fenda</li>
+                <li class="fs-5">Chaves para Mandril</li>
+                <li class="fs-5">Chaves para Rodas</li>
+                <li class="fs-5">Chaves tipo Sueca</li>
+              </ul>
+            </div>
+
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Cilindros Hidráulicos</li>
+                <li class="fs-5">Contadores de Rotação</li>
+                <li class="fs-5">Cortador de Tubos</li>
+                <li class="fs-5">Escovas de Aço</li>
+                <li class="fs-5">Esmeril de Bancada</li>
+                <li class="fs-5">Furadeiras Elétricas e Pneumáticas</li>
+                <li class="fs-5">Guinchos Hidráulicos</li>
+                <li class="fs-5">Hastes Cônicas para Mandril</li>
+                <li class="fs-5">Lâminas de Serra</li>
+                <li class="fs-5">Limas Diversas</li>
+                <li class="fs-5">Lixadeiras Elétricas e Pneumáticas</li>
+                <li class="fs-5">Macacos</li>
+                <li class="fs-5">Marreta</li>
+                <li class="fs-5">Martelo</li>
+                <li class="fs-5">Medidores de Compressão</li>
+                <li class="fs-5">Micrômetro</li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Ferramentas End -->
+
+  <!-- start Modal Material Elétrico -->
+  <div class="modal modal-xl fade" id="material-eletrico" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Cabo Elétrico</li>
+                <li class="fs-5">Conectores</li>
+                <li class="fs-5">Eletrodutos</li>
+                <li class="fs-5">Lâmpadas Diversas</li>
+                <li class="fs-5">Luminárias Diversas</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Plugs</li>
+                <li class="fs-5">Prensa Cabo</li>
+                <li class="fs-5">Projetores</li>
+                <li class="fs-5">Tubos Flexíveis</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Material Elétrico  End -->
+
+  <!-- start Modal Material Pintura -->
+  <div class="modal modal-xl fade" id="material-pintura" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Bandeja</li>
+                <li class="fs-5">Brochas</li>
+                <li class="fs-5">Desempenadeira</li>
+                <li class="fs-5">Espátula</li>
+                <li class="fs-5">Extensores</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Pincéis Artísticos</li>
+                <li class="fs-5">Raspador e Mexedor de Tinta</li>
+                <li class="fs-5">Rolos</li>
+                <li class="fs-5">Trinchas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Material Pintura  End -->
+
+  <!-- start Modal Material Pintura -->
+  <div class="modal modal-xl fade" id="material-quimico" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Desengraxantes</li>
+                <li class="fs-5">Desinfetantes</li>
+                <li class="fs-5">Desingripantes</li>
+                <li class="fs-5">Detergente Ácido Limpa Alumínio</li>
+                <li class="fs-5">Esquadros</li>
+                <li class="fs-5">Fluido</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Gases Refrigerantes</li>
+                <li class="fs-5">Graxas</li>
+                <li class="fs-5">Lubrificante</li>
+                <li class="fs-5">Sabão Industrial</li>
+                <li class="fs-5">Sabonetes Líquidos</li>
+                <li class="fs-5">Shampoo Automotivo</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Material Pintura  End -->
+
+  <!-- start Modal Material de Solda-->
+  <div class="modal modal-xl fade" id="material-solda" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Arames</li>
+                <li class="fs-5">Bicos</li>
+                <li class="fs-5">Eletrodos Diversos</li>
+                <li class="fs-5">Maçaricos</li>
+                <li class="fs-5">Mangueiras de Solda</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Máscara de Solda</li>
+                <li class="fs-5">Reguladores</li>
+                <li class="fs-5">Roupas de Proteção para Solda</li>
+                <li class="fs-5">Tocha Tig</li>
+                <li class="fs-5">Válvulas Anti-retrocesso</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Material de Solda End -->
+
+  <!-- start Modal tubos-e-conecoes -->
+  <div class="modal modal-xl fade" id="tubos-e-conexoes" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Flanges</li>
+                <li class="fs-5">Conexões tubulares</li>
+                <li class="fs-5">Conexões forjadas</li>
+                <li class="fs-5">Conexões hidráulicas</li>
+                <li class="fs-5">Conexões de cobre, PVC e CPVC</li>
+                <li class="fs-5">Engates rápidos</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Tubos hidráulicos</li>
+                <li class="fs-5">Tubos mecânicos</li>
+                <li class="fs-5">Proteção contra queda</li>
+                <li class="fs-5">Proteção respiratória</li>
+                <li class="fs-5">Proteção auditiva</li>
+                <li class="fs-5">Proteção facial e ocular</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Proteção à cabeça</li>
+                <li class="fs-5">Proteção das mãos e braços</li>
+                <li class="fs-5">Vestimentas impermeáveis</li>
+                <li class="fs-5">Vestimentas de proteção química</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Espaço confinado</li>
+                <li class="fs-5">Proteção contra calor e fogo</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal tubos-e-conecoes  End -->
+
+  <!-- start Modal Papelaria -->
+  <div class="modal modal-xl fade" id="papelaria" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Cartuchos & Toners</li>
+                <li class="fs-5">Embalagens</li>
+                <li class="fs-5">Envelopes, Etiquetas & Formulários</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Escrita & Corretivo</li>
+                <li class="fs-5">Material para Escritório</li>
+                <li class="fs-5">Papéis e Pastas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Papelaria  End -->
+
+  <!-- start Modal material-de-carga -->
+  <div class="modal modal-xl fade" id="material-de-carga" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Anéis de Sustentação</li>
+                <li class="fs-5">Cabo de Aço</li>
+                <li class="fs-5">Cintas de Elevação e Amarração</li>
+                <li class="fs-5">Clips</li>
+                <li class="fs-5">Correntes</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Elo de Ligação</li>
+                <li class="fs-5">Esticadores</li>
+                <li class="fs-5">Estropos</li>
+                <li class="fs-5">Lingas</li>
+                <li class="fs-5">Manilhas</li>
+                <li class="fs-5">Sapatilhas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal material-de-carga  End -->
+
+  <!-- start Modal material-metrico -->
+  <div class="modal modal-xl fade" id="material-metrico" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Anéis</li>
+                <li class="fs-5">Blocos</li>
+                <li class="fs-5">Calibradores</li>
+                <li class="fs-5">Comparadores</li>
+                <li class="fs-5">Desempenos</li>
+                <li class="fs-5">Dispositivos</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Durômetros</li>
+                <li class="fs-5">Hastes</li>
+                <li class="fs-5">Medidores</li>
+                <li class="fs-5">Mesa</li>
+                <li class="fs-5">Microscópio</li>
+                <li class="fs-5">Níveis</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Parquímetros</li>
+                <li class="fs-5">Réguas</li>
+                <li class="fs-5">Relógios</li>
+                <li class="fs-5">Rugosímetros</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Transferidores</li>
+                <li class="fs-5">Suporte</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal material-metrico  End -->
+
+  <!-- start Modal utilidades -->
+  <div class="modal modal-xl fade" id="utilidades" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Cama</li>
+                <li class="fs-5">Mesa & Banho</li>
+                <li class="fs-5">Eletrodomésticos</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li class="fs-5">Eletrônico</li>
+                <li class="fs-5">Panelas</li>
+                <li class="fs-5">Pratos</li>
+                <li class="fs-5">Talheres</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal utilidades  End -->
+
+</body>
+
+</html>
