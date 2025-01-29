@@ -126,14 +126,6 @@ header {
   background-color: #f9f9f9;
 }
 
-@media(max-width: 650px){
-  .section-about {
-    padding: 4rem 0;
-    background-color: #f9f9f9;
-  }
-  
-}
-
 .span-border {
   width: 0;
   height: min(35rem, 80svh )!important;
@@ -153,6 +145,37 @@ header {
   width: min(15rem, 42vw);
   right: 3.5rem;
   bottom: -2rem;
+}
+
+@media(max-width: 1024px){
+  .img-capacete {
+    right: -1.2rem !important;
+    bottom: -2rem;
+  }
+}
+
+@media(max-width: 800px){
+  .section-about {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+
+  .img-capacete {
+    right: 4.5rem !important;
+    bottom: -2rem;
+  }
+}
+
+@media(max-width: 800px){
+  .section-about {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+
+  .img-capacete {
+    right: 0.2rem !important;
+    bottom: -2rem;
+  }
 }
 /* section About  end*/
 
@@ -294,6 +317,8 @@ header {
     margin: 0 !important;
   }
 }
+
+
 
 @media(max-width: 600px){
   .card-swiper {
