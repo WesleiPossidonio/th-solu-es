@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem !important;
+}
+
 /* components  */
 .bg-button {
   background-color: #71090f !important;
@@ -223,8 +228,8 @@ header {
 }
 
 .card-swiper {
-  width: 22rem !important;
-  height: 30rem;
+  width: 100% !important;
+  height: 25rem;
 
   display: flex;
   flex-direction: column;
@@ -241,6 +246,12 @@ header {
   position: relative;
   transition: 0.3s ease;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px !important; 
+}
+
+@media(min-width: 1440px){
+  .card-swiper {
+    width: 22rem !important;
+  }
 }
 
 .card-swiper img {
@@ -391,4 +402,28 @@ header {
 
 .link-footer:hover {
   opacity: 0.7;
+}
+
+.text-logo-footer {
+  font-size: 13px !important;
+}
+
+.link-icons-footer {
+  padding: 0.3rem 0.65rem;
+  border-radius: 8px;
+  background-color: #fff;
+
+  i {
+    font-size: 1.4rem;
+    color: #71090f;
+  }
+}
+
+.link-icons-footer:hover {
+  opacity: 0.8;
+}
+
+.bg-footer-link {
+  width: 100%;
+  background-color: #580509;
 }

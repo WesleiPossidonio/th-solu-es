@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -16,6 +16,10 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
   <!-- Link Bootstrap End -->
+  <!-- Bootstrap ICONS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  <!-- AOS (Animate On Scroll) -->
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/services.css">
 
@@ -53,7 +57,7 @@
       <div class="container">
         <div class=" w-100 d-flex align-items-center justify-content-between">
           <!-- Logo -->
-          <a class="navbar-brand logo" href="#">
+          <a class="navbar-brand logo mt-2" href="/">
             <img src="./src/images/logo-thsoluções.png" alt="">
           </a>
           <!-- Btn togle -->
@@ -78,19 +82,16 @@
               <ul
                 class="navbar-nav align-items-start justify-content-start justify-content-lg-end fs-5 flex-grow-1 pe-3 gap-2 gap-lg-0">
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
+                  <a class="nav-link fs-5" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#">Sobre Nós</a>
+                  <a class="nav-link fs-5" href="./index.html#about">Sobre Nós</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#">Nossas Soluções</a>
+                  <a class="nav-link fs-5" href="./index.html#solutions">Nossas Soluções</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#">Parceiros</a>
-                </li>
-                <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#">Contatos</a>
+                  <a class="nav-link fs-5" href="./index.html#contacts">Contatos</a>
                 </li>
               </ul>
 
@@ -134,9 +135,9 @@
       <div class="col-12 mb-5">
         <div class="d-flex flex-column text-center align-items-center justify-content-center">
           <h1>Suplementos</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit reiciendis beatae aperiam odio voluptate
-            nobis dolorum numquam aspernatur, veritatis pariatur velit dignissimos nisi sapiente ipsa expedita esse
-            inventore est dolor.</p>
+          <p>
+            Oferecemos soluções de alta qualidade para garantir eficiência e segurança no seu trabalho.
+          </p>
         </div>
       </div>
     </div>
@@ -284,6 +285,70 @@
   </div>
 
 
+  <footer class="footer h-auto d-flex align-items-center justify-content-center p-4">
+    <div class="container">
+      <div class="row row-gap-5">
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center gap-2">
+            <img class="logo-footer" src="./src/images/logo-thsoluções2.png" alt="">
+            <p class="text-white d-flex"> <span>&#169;</span> Todos os direitos reservados</p>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center gap-2">
+            <h2 class="fs-3 text-white fw-semibold">Navegação</h2>
+            <div class="w-100 d-flex flex-column align-items-start gap-1">
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="/">Home</a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#about">
+                Sobre Nós
+              </a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#solutions">
+                Nossas Soluções
+              </a>
+              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#contacts">
+                Contatos
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column align-items-start justify-content-center">
+            <h2 class="fs-4 text-white fw-semibold">Contatos</h2>
+
+            <div class="w-100  d-flex flex-column align-items-start gap-3">
+              <div class="d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-telephone-plus fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">Telefone</p>
+                  <a class="text-decoration-none m-0 text-white fs-6" href="tel:+">(22)
+                    99999-9999</a>
+                </div>
+              </div>
+
+              <div class=" d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-envelope-arrow-down fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">E-mail</p>
+                  <a class="text-decoration-none m-0 text-white fs-6" href="mailto:">Email@gmail.com</a>
+                </div>
+              </div>
+
+              <div class=" d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-geo-alt fs-3 text-white"></i>
+                <div class="card-contact">
+                  <p class="fs-5 fw-bold m-0 text-white">Localização</p>
+                  <a class="text-decoration-none m-0 text-white fs-5" href="http://" target="_blank"
+                    rel="noopener noreferrer">Macaé RJ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Modal Mangueiras -->
   <div class="modal modal-xl fade" id="mangueiras" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -291,18 +356,28 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Mangueiras</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Linha Cristal</li>
-                <li class="fs-5">Linha Rubber</li>
-                <li class="fs-5">Mangueira de Descarga e Condução</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Linha Cristal</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Linha Rubber</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Mangueira de
+                  Descarga e
+                  Condução</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Linha Espiralada</li>
-                <li class="fs-5">Linha trançada</li>
-                <li class="fs-5">Mangueira de Sucção e Descarga</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Linha Espiralada
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Linha trançada</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Mangueira de Sucção
+                  e
+                  Descarga</li>
               </ul>
             </div>
           </div>
@@ -323,23 +398,37 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Colas e Adesivos</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Colas de Borracha</li>
-                <li class="fs-5">Corda de Sisal</li>
-                <li class="fs-5">Ativadores e Primers</li>
-                <li class="fs-5">Produtos Para Adesão</li>
-                <li class="fs-5">Cordas de Polipropileno</li>
-                <li class="fs-5">Endurecedores</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Colas de Borracha
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Corda de Sisal</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Ativadores e Primers
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos Para Adesão
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cordas de
+                  Polipropileno
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Endurecedores</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Produtos para Fixação</li>
-                <li class="fs-5">Produtos para vedação/li>
-                <li class="fs-5">Resinas Epóxi</li>
-                <li class="fs-5">Produtos para Travamento</li>
-                <li class="fs-5">Silicone</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  Fixação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  vedação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Resinas Epóxi</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  Travamento
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Silicone</li>
               </ul>
             </div>
           </div>
@@ -360,23 +449,32 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Cordas</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Anticorrosiva</li>
-                <li class="fs-5">Cordas de Poliamida</li>
-                <li class="fs-5">Cordas de Nylon</li>
-                <li class="fs-5">Antiderrapante</li>
-                <li class="fs-5">Cordas de Poliéster Pré-Estriado</li>
-                <li class="fs-5">Cordas de Segurança</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Anticorrosiva</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cordas de Poliamida
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cordas de Nylon</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Antiderrapante</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cordas de Poliéster
+                  Pré-Estriado</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cordas de Segurança
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Dupla-faca</li>
-                <li class="fs-5">Engrachada Denso</li>
-                <li class="fs-5">Filamentosa</li>
-                <li class="fs-5">Silver tape/li>
-                <li class="fs-5">Isolante</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Dupla-faca</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Engrachada Denso
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Filamentosa</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Silver tape</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Isolante</li>
               </ul>
             </div>
           </div>
@@ -397,34 +495,54 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Abrasivos</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Discos de desbaste</li>
-                <li class="fs-5">Discos de lixa</li>
-                <li class="fs-5">Discos de corte</li>
-                <li class="fs-5">Disco diamantado</li>
-                <li class="fs-5">Escovas rotativas</li>
-                <li class="fs-5">Fresas e brocas</li>
-                <li class="fs-5">Limas mecânicas e rotativas</li>
-                <li class="fs-5">Lixas</li>
-                <li class="fs-5">Pontas montadas</li>
-                <li class="fs-5">Produtos para travamentos</li>
-                <li class="fs-5">Rebolos</li>
-                <li class="fs-5">Escovas rotativas</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Discos de desbaste
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Discos de lixa</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Discos de corte</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Disco diamantado
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Escovas rotativas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Fresas e brocas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Limas mecânicas e
+                  rotativas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lixas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Pontas montadas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  travamentos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Rebolos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Escovas rotativas
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Pastilhas de usinagem</li>
-                <li class="fs-5">Produtos para adesão</li>
-                <li class="fs-5">Produtos para fixação</li>
-                <li class="fs-5">Produtos para travamento</li>
-                <li class="fs-5">Produtos para vedação</li>
-                <li class="fs-5">Colas de borracha</li>
-                <li class="fs-5">Endurecedores</li>
-                <li class="fs-5">Resinas epóxi</li>
-                <li class="fs-5">Ativadores e primers</li>
-                <li class="fs-5">Silicone</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Pastilhas de
+                  usinagem</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para adesão
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  fixação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  travamento
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Produtos para
+                  vedação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Colas de borracha
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Endurecedores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Resinas epóxi</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Ativadores e primers
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Silicone</li>
               </ul>
             </div>
 
@@ -445,45 +563,76 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Ferramentas</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Alicates</li>
-                <li class="fs-5">Almotolias</li>
-                <li class="fs-5">Balde de Graxa e Óleo</li>
-                <li class="fs-5">Bits e Bedames</li>
-                <li class="fs-5">Brocas Cônicas e Paralelas</li>
-                <li class="fs-5">Buchas de Redução para Brocas</li>
-                <li class="fs-5">Cadeados</li>
-                <li class="fs-5">Caixas para Ferramentas</li>
-                <li class="fs-5">Canivetes para Eletricistas</li>
-                <li class="fs-5">Carros Troley para Talhas</li>
-                <li class="fs-5">Chave Inglesa</li>
-                <li class="fs-5">Chaves Allen</li>
-                <li class="fs-5">Chaves de Fenda</li>
-                <li class="fs-5">Chaves para Mandril</li>
-                <li class="fs-5">Chaves para Rodas</li>
-                <li class="fs-5">Chaves tipo Sueca</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Alicates</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Almotolias</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Balde de Graxa e
+                  Óleo</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Bits e Bedames</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Brocas Cônicas e
+                  Paralelas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Buchas de Redução
+                  para
+                  Brocas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cadeados</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Caixas para
+                  Ferramentas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Canivetes para
+                  Eletricistas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Carros Troley para
+                  Talhas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chave Inglesa</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chaves Allen</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chaves de Fenda</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chaves para Mandril
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chaves para Rodas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Chaves tipo Sueca
+                </li>
               </ul>
             </div>
 
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Cilindros Hidráulicos</li>
-                <li class="fs-5">Contadores de Rotação</li>
-                <li class="fs-5">Cortador de Tubos</li>
-                <li class="fs-5">Escovas de Aço</li>
-                <li class="fs-5">Esmeril de Bancada</li>
-                <li class="fs-5">Furadeiras Elétricas e Pneumáticas</li>
-                <li class="fs-5">Guinchos Hidráulicos</li>
-                <li class="fs-5">Hastes Cônicas para Mandril</li>
-                <li class="fs-5">Lâminas de Serra</li>
-                <li class="fs-5">Limas Diversas</li>
-                <li class="fs-5">Lixadeiras Elétricas e Pneumáticas</li>
-                <li class="fs-5">Macacos</li>
-                <li class="fs-5">Marreta</li>
-                <li class="fs-5">Martelo</li>
-                <li class="fs-5">Medidores de Compressão</li>
-                <li class="fs-5">Micrômetro</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cilindros
+                  Hidráulicos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Contadores de
+                  Rotação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cortador de Tubos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Escovas de Aço</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Esmeril de Bancada
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Furadeiras Elétricas
+                  e
+                  Pneumáticas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Guinchos Hidráulicos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Hastes Cônicas para
+                  Mandril</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lâminas de Serra
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Limas Diversas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lixadeiras Elétricas
+                  e
+                  Pneumáticas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Macacos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Marreta</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Martelo</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Medidores de
+                  Compressão
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Micrômetro</li>
               </ul>
             </div>
 
@@ -504,21 +653,28 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material Elétrico</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Cabo Elétrico</li>
-                <li class="fs-5">Conectores</li>
-                <li class="fs-5">Eletrodutos</li>
-                <li class="fs-5">Lâmpadas Diversas</li>
-                <li class="fs-5">Luminárias Diversas</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cabo Elétrico</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Conectores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Eletrodutos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lâmpadas Diversas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Luminárias Diversas
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Plugs</li>
-                <li class="fs-5">Prensa Cabo</li>
-                <li class="fs-5">Projetores</li>
-                <li class="fs-5">Tubos Flexíveis</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Plugs</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Prensa Cabo</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Projetores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Tubos Flexíveis</li>
               </ul>
             </div>
           </div>
@@ -538,21 +694,29 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material de Pintura</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Bandeja</li>
-                <li class="fs-5">Brochas</li>
-                <li class="fs-5">Desempenadeira</li>
-                <li class="fs-5">Espátula</li>
-                <li class="fs-5">Extensores</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Bandeja</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Brochas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Desempenadeira</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Espátula</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Extensores</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Pincéis Artísticos</li>
-                <li class="fs-5">Raspador e Mexedor de Tinta</li>
-                <li class="fs-5">Rolos</li>
-                <li class="fs-5">Trinchas</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Pincéis Artísticos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Raspador e Mexedor
+                  de
+                  Tinta</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Rolos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Trinchas</li>
               </ul>
             </div>
           </div>
@@ -565,31 +729,42 @@
   </div>
   <!-- Modal Material Pintura  End -->
 
-  <!-- start Modal Material Pintura -->
+  <!-- start Modal Material Quimico -->
   <div class="modal modal-xl fade" id="material-quimico" data-bs-backdrop="static" data-bs-keyboard="false"
     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material Químico</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Desengraxantes</li>
-                <li class="fs-5">Desinfetantes</li>
-                <li class="fs-5">Desingripantes</li>
-                <li class="fs-5">Detergente Ácido Limpa Alumínio</li>
-                <li class="fs-5">Esquadros</li>
-                <li class="fs-5">Fluido</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Desengraxantes</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Desinfetantes</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Desingripantes</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Detergente Ácido
+                  Limpa
+                  Alumínio</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Esquadros</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Fluido</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Gases Refrigerantes</li>
-                <li class="fs-5">Graxas</li>
-                <li class="fs-5">Lubrificante</li>
-                <li class="fs-5">Sabão Industrial</li>
-                <li class="fs-5">Sabonetes Líquidos</li>
-                <li class="fs-5">Shampoo Automotivo</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Gases Refrigerantes
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Graxas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lubrificante</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Sabão Industrial
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Sabonetes Líquidos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Shampoo Automotivo
+                </li>
               </ul>
             </div>
           </div>
@@ -609,22 +784,34 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material de Solda</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Arames</li>
-                <li class="fs-5">Bicos</li>
-                <li class="fs-5">Eletrodos Diversos</li>
-                <li class="fs-5">Maçaricos</li>
-                <li class="fs-5">Mangueiras de Solda</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Arames</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Bicos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Eletrodos Diversos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Maçaricos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Mangueiras de Solda
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Máscara de Solda</li>
-                <li class="fs-5">Reguladores</li>
-                <li class="fs-5">Roupas de Proteção para Solda</li>
-                <li class="fs-5">Tocha Tig</li>
-                <li class="fs-5">Válvulas Anti-retrocesso</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Máscara de Solda
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Reguladores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Roupas de Proteção
+                  para
+                  Solda</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Tocha Tig</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Válvulas
+                  Anti-retrocesso
+                </li>
               </ul>
             </div>
           </div>
@@ -645,40 +832,66 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Tubos e Conexões</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Flanges</li>
-                <li class="fs-5">Conexões tubulares</li>
-                <li class="fs-5">Conexões forjadas</li>
-                <li class="fs-5">Conexões hidráulicas</li>
-                <li class="fs-5">Conexões de cobre, PVC e CPVC</li>
-                <li class="fs-5">Engates rápidos</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Flanges</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Conexões tubulares
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Conexões forjadas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Conexões hidráulicas
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Conexões de cobre,
+                  PVC e
+                  CPVC</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Engates rápidos</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Tubos hidráulicos</li>
-                <li class="fs-5">Tubos mecânicos</li>
-                <li class="fs-5">Proteção contra queda</li>
-                <li class="fs-5">Proteção respiratória</li>
-                <li class="fs-5">Proteção auditiva</li>
-                <li class="fs-5">Proteção facial e ocular</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Tubos hidráulicos
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Tubos mecânicos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção contra
+                  queda</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção
+                  respiratória</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção auditiva
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção facial e
+                  ocular
+                </li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Proteção à cabeça</li>
-                <li class="fs-5">Proteção das mãos e braços</li>
-                <li class="fs-5">Vestimentas impermeáveis</li>
-                <li class="fs-5">Vestimentas de proteção química</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção à cabeça
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção das mãos e
+                  braços
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Vestimentas
+                  impermeáveis
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Vestimentas de
+                  proteção
+                  química</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Espaço confinado</li>
-                <li class="fs-5">Proteção contra calor e fogo</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Espaço confinado
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Proteção contra
+                  calor e
+                  fogo</li>
               </ul>
             </div>
           </div>
@@ -698,18 +911,29 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Papelaria</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Cartuchos & Toners</li>
-                <li class="fs-5">Embalagens</li>
-                <li class="fs-5">Envelopes, Etiquetas & Formulários</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cartuchos & Toners
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Embalagens</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Envelopes, Etiquetas
+                  &
+                  Formulários</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Escrita & Corretivo</li>
-                <li class="fs-5">Material para Escritório</li>
-                <li class="fs-5">Papéis e Pastas</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Escrita & Corretivo
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Material para
+                  Escritório
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Papéis e Pastas</li>
               </ul>
             </div>
           </div>
@@ -729,23 +953,30 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material de Carga</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Anéis de Sustentação</li>
-                <li class="fs-5">Cabo de Aço</li>
-                <li class="fs-5">Cintas de Elevação e Amarração</li>
-                <li class="fs-5">Clips</li>
-                <li class="fs-5">Correntes</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Anéis de Sustentação
+                </li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cabo de Aço</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cintas de Elevação e
+                  Amarração</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Clips</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Correntes</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Elo de Ligação</li>
-                <li class="fs-5">Esticadores</li>
-                <li class="fs-5">Estropos</li>
-                <li class="fs-5">Lingas</li>
-                <li class="fs-5">Manilhas</li>
-                <li class="fs-5">Sapatilhas</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Elo de Ligação</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Esticadores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Estropos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Lingas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Manilhas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Sapatilhas</li>
               </ul>
             </div>
           </div>
@@ -765,40 +996,45 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Material Métrico</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Anéis</li>
-                <li class="fs-5">Blocos</li>
-                <li class="fs-5">Calibradores</li>
-                <li class="fs-5">Comparadores</li>
-                <li class="fs-5">Desempenos</li>
-                <li class="fs-5">Dispositivos</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Anéis</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Blocos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Calibradores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Comparadores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Desempenos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Dispositivos</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Durômetros</li>
-                <li class="fs-5">Hastes</li>
-                <li class="fs-5">Medidores</li>
-                <li class="fs-5">Mesa</li>
-                <li class="fs-5">Microscópio</li>
-                <li class="fs-5">Níveis</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Durômetros</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Hastes</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Medidores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Mesa</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Microscópio</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Níveis</li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Parquímetros</li>
-                <li class="fs-5">Réguas</li>
-                <li class="fs-5">Relógios</li>
-                <li class="fs-5">Rugosímetros</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Parquímetros</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Réguas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Relógios</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Rugosímetros</li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Transferidores</li>
-                <li class="fs-5">Suporte</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Transferidores</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Suporte</li>
               </ul>
             </div>
           </div>
@@ -818,19 +1054,25 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="d-flex align-items-start justify-content-center">
+                <h1 class="fs-3 fw-semibold">Utilidades</h1>
+              </div>
+            </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Cama</li>
-                <li class="fs-5">Mesa & Banho</li>
-                <li class="fs-5">Eletrodomésticos</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Cama</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Mesa & Banho</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Eletrodomésticos
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul>
-                <li class="fs-5">Eletrônico</li>
-                <li class="fs-5">Panelas</li>
-                <li class="fs-5">Pratos</li>
-                <li class="fs-5">Talheres</li>
+              <ul class="list-unstyled">
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Eletrônico</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Panelas</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Pratos</li>
+                <li class="fs-5 d-flex align-items-center gap-2"><i class="bi bi-check2-square"></i>Talheres</li>
               </ul>
             </div>
           </div>
