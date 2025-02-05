@@ -41,7 +41,7 @@
           </div>
 
           <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
-            class=" text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
+            class="text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
             rel="noopener noreferrer">
             <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
               title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
@@ -55,12 +55,12 @@
     <!-- header start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <div class=" w-100 d-flex align-items-center justify-content-between">
+        <div class="w-100 d-flex align-items-center justify-content-between">
           <!-- Logo -->
-          <a class="navbar-brand logo mt-2" href="/">
+          <a class="navbar-brand logo mt-2" href="#">
             <img src="./src/images/logo-thsoluções.png" alt="">
           </a>
-          <!-- Btn togle -->
+          <!-- Btn toggle -->
           <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,16 +82,16 @@
               <ul
                 class="navbar-nav align-items-start justify-content-start justify-content-lg-end fs-5 flex-grow-1 pe-3 gap-2 gap-lg-0">
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" aria-current="page" href="/">Home</a>
+                  <a class="nav-link fs-5 close-offcanvas" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="./index.html#about">Sobre Nós</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#about">Sobre Nós</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="./index.html#solutions">Nossas Soluções</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#solutions">Nossas Soluções</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="./index.html#contacts">Contatos</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#contacts">Contatos</a>
                 </li>
               </ul>
 
@@ -115,7 +115,6 @@
           </div>
         </div>
       </div>
-
     </nav>
     <!-- NavBar End-->
   </header>
@@ -285,13 +284,28 @@
   </div>
 
 
-  <footer class="footer h-auto d-flex align-items-center justify-content-center p-4">
-    <div class="container">
+
+  <footer class="footer h-auto d-flex flex-column align-items-center justify-content-center">
+    <div class="container pt-4 px-4">
       <div class="row row-gap-5">
         <div class="col-md-4">
           <div class="d-flex flex-column align-items-start justify-content-center gap-2">
             <img class="logo-footer" src="./src/images/logo-thsoluções2.png" alt="">
-            <p class="text-white d-flex"> <span>&#169;</span> Todos os direitos reservados</p>
+            <p class="text-white text-logo-footer m-0">
+              Nosso foco vai além da prestação de serviços; sempre
+              priorizando resultados eficientes e satisfatórios.
+            </p>
+            <div class="d-flex align-items-center justify-content-center gap-2 mt-1">
+              <a class="link-icons-footer" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a class="link-icons-footer" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a class="link-icons-footer" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </div>
           </div>
 
         </div>
@@ -299,19 +313,18 @@
           <div class="d-flex flex-column align-items-start justify-content-center gap-2">
             <h2 class="fs-3 text-white fw-semibold">Navegação</h2>
             <div class="w-100 d-flex flex-column align-items-start gap-1">
-              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="/">Home</a>
-              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#about">
-                Sobre Nós
-              </a>
-              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#solutions">
+              <a class="text-decoration-none fs-6 fs-md-5 fw-semibold text-white link-footer" href="/">Home</a>
+              <a class="text-decoration-none fs-6 fs-md-5 fw-semibold text-white link-footer" href="#about">Sobre
+                Nós</a>
+              <a class="text-decoration-none fs-6 fs-md-5 fw-semibold text-white link-footer" href="#solutions">
                 Nossas Soluções
               </a>
-              <a class="text-decoration-none fs-6 fs-md-5 text-white link-footer" href="./index.html#contacts">
-                Contatos
-              </a>
+              <a class="text-decoration-none fs-6 fs-md-5 fw-semibold text-white link-footer"
+                href="#contacts">Contatos</a>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="d-flex flex-column align-items-start justify-content-center">
             <h2 class="fs-4 text-white fw-semibold">Contatos</h2>
@@ -320,25 +333,26 @@
               <div class="d-flex align-items-center justify-content-center gap-3">
                 <i class="bi bi-telephone-plus fs-3 text-white"></i>
                 <div class="card-contact">
-                  <p class="fs-5 fw-bold m-0 text-white">Telefone</p>
-                  <a class="text-decoration-none m-0 text-white fs-6" href="tel:+">(22)
-                    99999-9999</a>
+                  <p class="fs-6 fs-md-5 fw-bold m-0 text-white">Telefone</p>
+                  <a class="text-decoration-none m-0 text-white fs-6 fs-md-5" href="tel:+">
+                    (22) 99999-9999
+                  </a>
                 </div>
               </div>
 
               <div class=" d-flex align-items-center justify-content-center gap-3">
                 <i class="bi bi-envelope-arrow-down fs-3 text-white"></i>
                 <div class="card-contact">
-                  <p class="fs-5 fw-bold m-0 text-white">E-mail</p>
-                  <a class="text-decoration-none m-0 text-white fs-6" href="mailto:">Email@gmail.com</a>
+                  <p class="fs-6 fs-md-5 fw-bold m-0 text-white">E-mail</p>
+                  <a class="text-decoration-none m-0 text-white fs-6 fs-md-5" href="mailto:">Email@gmail.com</a>
                 </div>
               </div>
 
               <div class=" d-flex align-items-center justify-content-center gap-3">
                 <i class="bi bi-geo-alt fs-3 text-white"></i>
                 <div class="card-contact">
-                  <p class="fs-5 fw-bold m-0 text-white">Localização</p>
-                  <a class="text-decoration-none m-0 text-white fs-5" href="http://" target="_blank"
+                  <p class="fs-6 fs-md-5 fw-bold m-0 text-white">Localização</p>
+                  <a class="text-decoration-none m-0 text-white fs-6 fs-md-5" href="http://" target="_blank"
                     rel="noopener noreferrer">Macaé RJ</a>
                 </div>
               </div>
@@ -347,7 +361,21 @@
         </div>
       </div>
     </div>
+
+    <div class="bg-footer-link mt-4 py-2">
+      <div class="col-12">
+        <div class="d-flex align-items-center justify-content-center gap-2 py-2">
+          <p class="text-white d-flex gap-1 m-0"> <span>&#169;</span> 2025 Todos os direitos reservados Site
+            Desenvolvido
+            por <a class="text-white fw-semibold text-decoration-none" href="https://www.criard.com.br/" target="_blank"
+              rel="noopener noreferrer">criarD Tech</a></p>
+          <p class="text-white">
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
+
 
   <!-- Modal Mangueiras -->
   <div class="modal modal-xl fade" id="mangueiras" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -1084,7 +1112,7 @@
     </div>
   </div>
   <!-- Modal utilidades  End -->
-
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

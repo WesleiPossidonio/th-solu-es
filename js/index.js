@@ -1,3 +1,24 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+  const offcanvasElement = document.getElementById("offcanvasNavbar");
+  const links = document.querySelectorAll(".nav-link");
+
+  links.forEach(link => {
+    link.addEventListener("click", function () {
+      const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+      if (offcanvas) {
+        offcanvas.hide();
+      }
+    });
+  });
+
+  offcanvasElement.addEventListener("hidden.bs.offcanvas", function () {
+    document.querySelectorAll(".offcanvas-backdrop").forEach(backdrop => {
+      backdrop.remove();
+    });
+  });
+});
+
 var swiper = new Swiper(".swiperHero", {
   spaceBetween: 30,
   loop: true,

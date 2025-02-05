@@ -45,7 +45,7 @@
           </div>
 
           <a href="https://maps.app.goo.gl/8s2BG5yukTq1gffJ9"
-            class=" text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
+            class="text-decoration-none text-white d-flex align-items-center gap-2" target="_blank"
             rel="noopener noreferrer">
             <i class="bi bi-geo-alt-fill fs-4" data-bs-toggle="tooltip"
               title="Av. Acadêmico Paulo Sérgio de Carvalho Vasconcelos, 707, Granja dos Cavaleiros 27930-260"></i>
@@ -64,7 +64,7 @@
           <a class="navbar-brand logo mt-2" href="#">
             <img src="./src/images/logo-thsoluções.png" alt="">
           </a>
-          <!-- Btn togle -->
+          <!-- Btn toggle -->
           <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -86,16 +86,16 @@
               <ul
                 class="navbar-nav align-items-start justify-content-start justify-content-lg-end fs-5 flex-grow-1 pe-3 gap-2 gap-lg-0">
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link fs-5 close-offcanvas" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#about">Sobre Nós</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#about">Sobre Nós</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#solutions">Nossas Soluções</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#solutions">Nossas Soluções</a>
                 </li>
                 <li class="nav-item mx-xl-1 px-xl-2 text-nav-link">
-                  <a class="nav-link fs-5" href="#contacts">Contatos</a>
+                  <a class="nav-link fs-5 close-offcanvas" href="#contacts">Contatos</a>
                 </li>
               </ul>
 
@@ -119,7 +119,6 @@
           </div>
         </div>
       </div>
-
     </nav>
     <!-- NavBar End-->
   </header>
@@ -345,75 +344,60 @@
   <!-- Start section Contact -->
   <section class=" contacts w-100 d-flex align-items-center justify-content-center overflow-hidden" id="contacts">
                 <div class="container">
-                  <div class="row row-gap-5 row-gap-lg-0">
-                    <div class="col-lg-6 order-2 order-lg-1">
-                      <form action="" class="w-100">
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-                          <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
-                            placeholder="Nome">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
-                          <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
-                            placeholder="email@example.com">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">Telefone:</label>
-                          <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
-                            placeholder="(22) 22222-2222">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">Duvidas:</label>
-                          <textarea class="form-control shadow-none" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Digite sua dúvida..."></textarea>
-                        </div>
-                        <button class="btn btn-lg bg-button">Enviar</button>
-                      </form>
-                    </div>
-
-                    <div class="col-lg-6">
-                      <div class="d-flex flex-column align-items-start justofy-content-center px-lg-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="d-flex flex-column align-items-center justify-content-between">
                         <p class="m-0 fs-5">- Contatos</p>
                         <h2>Vamos Conversar: Estamos Prontos Para Ajudar Você!</h2>
                         <p class="fs-6 fs-md-5">
                           Seu sucesso é a nossa prioridade. Fale conosco e juntos
                           encontraremos a melhor solução para suas necessidades!
                         </p>
+                      </div>
+                    </div>
+                  </div>
 
-                        <div class="w-100 content-contact">
-                          <div class="d-flex align-items-center justify-content-center gap-3">
-                            <i class="bi bi-telephone-plus fs-1 color-text"></i>
-                            <div class="card-contact">
-                              <p class="fs-4 fw-bold m-0 text-dark">Telefone</p>
-                              <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="tel:+">(22)
-                                99999-9999</a>
-                            </div>
-                          </div>
-
-                          <div class=" d-flex align-items-center justify-content-center gap-3">
-                            <i class="bi bi-envelope-arrow-down fs-1 color-text"></i>
-                            <div class="card-contact">
-                              <p class="fs-4 fw-bold m-0 text-dark">E-mail</p>
-                              <a class="text-decoration-none m-0 color-text fs-6 fs-md-5"
-                                href="mailto:">Email@gmail.com</a>
-                            </div>
-                          </div>
+                  <div class="w-100 row d-flex align-items-center justify-content-center">
+                    <div class="col-md-4 col-lg-3">
+                      <div class="d-flex align-items-center justify-content-start justify-content-md-center gap-3">
+                        <i class="bi bi-telephone-plus fs-1 color-text"></i>
+                        <div class="card-contact">
+                          <p class="fs-4 fw-bold m-0 text-dark">Telefone</p>
+                          <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="tel:+">(22)
+                            99999-9999</a>
                         </div>
-
-                        <div class=" d-flex align-items-center justify-content-center gap-3 mt-3">
-                          <i class="bi bi-geo-alt fs-1 color-text"></i>
-                          <div class="card-contact">
-                            <p class="fs-4 fw-bold m-0 text-dark">Localização</p>
-                            <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="http://" target="_blank"
-                              rel="noopener noreferrer">Macaé RJ</a>
-                          </div>
-                        </div>
-
                       </div>
                     </div>
 
+                    <div class="col-md-4 col-lg-3">
+                      <div class=" d-flex align-items-center justify-content-start justify-content-md-center gap-3">
+                        <i class="bi bi-envelope-arrow-down fs-1 color-text"></i>
+                        <div class="card-contact">
+                          <p class="fs-4 fw-bold m-0 text-dark">E-mail</p>
+                          <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="mailto:">Email@gmail.com</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3">
+                      <div
+                        class=" d-flex align-items-center justify-content-start justify-content-md-center gap-3 mt-3">
+                        <i class="bi bi-geo-alt fs-1 color-text"></i>
+                        <div class="card-contact">
+                          <p class="fs-4 fw-bold m-0 text-dark">Localização</p>
+                          <a class="text-decoration-none m-0 color-text fs-6 fs-md-5" href="http://" target="_blank"
+                            rel="noopener noreferrer">Macaé RJ</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class=" d-flex align-items-center justify-content-start justify-content-md-center mt-4">
+                        <a class="send-email-btn text-white fw-semibold" href="mailto:">Entrar em Contato Agora!</a>
+                      </div>
+                    </div>
                   </div>
+
+
                 </div>
   </section>
   <!-- End section Contact -->
@@ -495,17 +479,15 @@
       </div>
     </div>
 
-    <div class="bg-footer-link mt-4 py-2">
-      <div class="col-12">
-        <div class="d-flex align-items-center justify-content-center gap-2 py-2">
-          <p class="text-white d-flex gap-1 m-0"> <span>&#169;</span> 2025 Todos os direitos reservados Site
-            Desenvolvido
-            por <a class="text-white fw-semibold text-decoration-none" href="https://www.criard.com.br/" target="_blank"
-              rel="noopener noreferrer">criarD Tech</a></p>
-          <p class="text-white">
-          </p>
-        </div>
-      </div>
+    <div
+      class="bg-footer-link d-flex flex-column flex-md-row gap-md-1 align-items-center justify-content-center mt-4 py-3">
+      <p class="text-white d-flex gap-1 m-0">
+        <span>&#169;</span> 2025 Todos os direitos reservados Site
+      </p>
+      <p class="text-white m-0">
+        Desenvolvido por <a class="text-white fw-semibold text-decoration-none" href="https://www.criard.com.br/"
+          target="_blank" rel="noopener noreferrer">criarD Tech</a>
+      </p>
     </div>
   </footer>
 
@@ -664,8 +646,6 @@
     </div>
   </div>
   <!-- Modal transporte-executivo End -->
-
-
 
   <script src="./js/index.js"></script>
   <script>
