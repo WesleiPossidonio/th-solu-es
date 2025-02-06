@@ -1,20 +1,24 @@
-
 document.addEventListener("DOMContentLoaded", function () {
-  const offcanvasElement = document.getElementById("offcanvasNavbar");
-  const links = document.querySelectorAll(".nav-link");
+  const offcanvas = document.getElementById("offcanvasNavbar");
+  const backdrop = document.querySelector(".offcanvas-backdrop");
 
-  links.forEach(link => {
-    link.addEventListener("click", function () {
-      const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
-      if (offcanvas) {
-        offcanvas.hide();
-      }
-    });
+  // Remover backdrop quando o offcanvas for fechado
+  offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+    document.body.classList.remove("offcanvas-open", "modal-open");
+    document.body.style.overflow = "";
+
+    // Remover manualmente o backdrop, se existir
+    const existingBackdrop = document.querySelector(".offcanvas-backdrop");
+    if (existingBackdrop) {
+      existingBackdrop.remove();
+    }
   });
 
-  offcanvasElement.addEventListener("hidden.bs.offcanvas", function () {
-    document.querySelectorAll(".offcanvas-backdrop").forEach(backdrop => {
-      backdrop.remove();
+  // Fechar o menu ao clicar nos links dentro dele
+  document.querySelectorAll(".close-offcanvas").forEach(link => {
+    link.addEventListener("click", function () {
+      const offcanvasElement = bootstrap.Offcanvas.getInstance(offcanvas);
+      offcanvasElement.hide();
     });
   });
 });
