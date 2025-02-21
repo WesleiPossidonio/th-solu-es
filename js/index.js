@@ -27,7 +27,7 @@ var swiper = new Swiper(".swiperHero", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 5500,
+    delay: 9500,
     disableOnInteraction: false,
   },
   pagination: {
